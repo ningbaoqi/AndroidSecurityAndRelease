@@ -18,3 +18,9 @@ jarsigner -verbose -keystore android123.keystore -signedjar android123_signed.ap
 ![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic3.jpg)
 
 #### [二、使用AndroidStudio生成方式]()
+
+```
+Build->Generate Signed APK...//然后根据提示就可以生成APK了
+```
+![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic10.jpg)
+![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic11.jpg)
