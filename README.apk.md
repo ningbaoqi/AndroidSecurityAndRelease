@@ -1,6 +1,5 @@
 ### 发布Android程序生成APK
-#### 生成签名文件
-##### [一、命令行生成方式]()
+#### [一、命令行生成方式]()
 ```
 keytool -genkey -alias android123.keystore -keyalg RSA -validity 20000 -keystore android123.keystore
 ```
@@ -17,3 +16,5 @@ jarsigner -verbose -keystore android123.keystore -signedjar android123_signed.ap
 ```
 
 ![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic3.jpg)
+
+#### [二、使用AndroidStudio生成方式]()
