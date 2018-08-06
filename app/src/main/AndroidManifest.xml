@@ -18,4 +18,17 @@
         </activity>
     </application>
 
+
+    <!--自定义一个权限-->
+    <!--android:label 表示权限的名字，显示给用户的-->
+    <!--android:description 对权限的描述-->
+    <!--android:name 权限的名字，如果其他App引用该权限需要填写这个名字-->
+    <!--android:protectionLevel 权限的级别 normal：低风险权限，在安装时，系统会自定授权给application；dangerous：高风险权限，系统不会自动授权给App，在用到的时候，会给用户提示；signature：签名权限，在其他App引用声明的权限的时候，需要保证两个App的签名一致，这样系统就会自动授予权限给第三方应用而不提示给用户；signatrueOrSystem：表示这个权限是引用该权限的App需要有和系统同样的签名才能授权，一般不推荐使用-->
+
+    <permission
+        android:name="com.shop.ningbaoqi.androidsecurityandrelease.txt"
+        android:description="@string/app_name"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="定义权限"
+        android:protectionLevel="normal" />
 </manifest>
