@@ -13,5 +13,7 @@ keytool -genkey -alias android123.keystore -keyalg RSA -validity 20000 -keystore
 + 双击`Gradle->项目：app下的assemble`，然后在`build->outputs->apk->release`就可以找到未签名的`apkapp-release-unsigned.apk`;
 
 ```
-jarsigner -verbose -keystore android123.keystore -signedjar android123_signed.apk android123.apk android123.keystore
+jarsigner -verbose -keystore android123.keystore -signedjar android123_signed.apk app-release-unsigned.apk android123.keystore
 ```
+
+![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic3.jpg)
