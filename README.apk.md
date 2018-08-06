@@ -24,3 +24,7 @@ Build->Generate Signed APK...//然后根据提示就可以生成APK了
 ```
 ![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic10.jpg)
 ![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic11.jpg)
+
+#### [三、使用Gradle生成方式](https://github.com/ningbaoqi/AndroidSecurityAndRelease/commit/4d959be2ae09093426ce85e1d5237d63e73aaffb)
+
+![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic15.jpg)
