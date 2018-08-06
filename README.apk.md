@@ -7,3 +7,7 @@ keytool -genkey -alias android123.keystore -keyalg RSA -validity 20000 -keystore
 ![image](https://github.com/ningbaoqi/AndroidSecurityAndRelease/blob/master/gif/pic1.jpg)
 
 + `-validity`表示证书有效天数；
+
+```
+jarsigner -verbose -keystore android123.keystore -signedjar android123_signed.apk android123.apk android123.keystore
+```
